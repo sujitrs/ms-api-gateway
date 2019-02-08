@@ -1,0 +1,14 @@
+spring:
+  cloud:
+     config:
+        discovery:
+           enabled: true
+           serviceId: ms-config-server
+  application:
+     name: ms-api-gateway
+#eureka:
+  #client:
+    #serviceUrl:
+      #defaultZone: http://localhost:8761/eureka/
+  #instance:
+    #preferIpAddress: true
